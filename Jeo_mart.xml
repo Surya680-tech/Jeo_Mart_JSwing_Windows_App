@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\JAVA PROJECT\JEO_MART_BILLING_SYSTEM\dist\JEO_MART_BILLING_SYSTEM.jar</jar>
+  <outfile>D:\Project Complete SoftWares\JEO_MART_BILLING_SYSTEM\Jeo_Mart.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>jeo_mart_billing_system.login</mainClass>
+    <cp>F:\JAR FILE\mssql-jdbc-12.8.1.jre8.jar</cp>
+    <cp>F:\JAR FILE\itextpdf-5.1.0.jar</cp>
+    <cp>F:\JAR FILE\javase-3.3.0.jar</cp>
+    <cp>F:\JAR FILE\core-3.5.3.jar</cp>
+    <cp>F:\JAR FILE\javax.mail-1.6.2.jar</cp>
+    <cp>F:\JAR FILE\jfreechart-1.5.3.jar</cp>
+    <cp>F:\JAR FILE\activation-1.1.1.jar</cp>
+    <cp>C:\Program Files\NetBeans-22\netbeans\java\modules\ext\AbsoluteLayout.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
